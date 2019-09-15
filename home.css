@@ -1,0 +1,50 @@
+/* Table */
+
+.table {
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 13px;
+    font-weight: 500;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgb(168, 168, 168);
+}
+
+.table tr,
+.table td,
+.table th {
+    border: 1px solid rgba(0, 0, 0, .12);
+}
+
+.table td,
+.table th {
+    width: 100%;
+    padding: 10px;
+}
+
+.table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+    background-color: #d9dadd;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.table td {
+    height: 50px;
+}
+
+.textbox{
+    width: 100%;
+}
+.button{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  
+}
