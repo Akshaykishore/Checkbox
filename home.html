@@ -20,21 +20,24 @@
         </tr>
         <tr>
             <td>1</td>
-            <td><input type="checkbox"  id="myCheck" onclick="enable_text(this)"></td>
+            <td><input type="checkbox"  id="myCheck1" onclick="enable_text(this)"></td>
+            <td id ="myCheck1_value"></td>
         </tr>
         <tr>
             <td>2</td>
             <td><input type="checkbox"  id="myCheck2" onclick="enable_text(this)"></td>
+            <td id="myCheck2_value"></td>
         </tr>
         <tr>
             <td>3</td>
             <td><input type="checkbox"  id="myCheck3" onclick="enable_text(this)"></td>
+            <td id= "myCheck3_value"></td>
         </tr>
       </table>
        <input type ="text" class="textbox" id="textarea" disabled>
     </form>
     <div class="button">
-        <button type="button" >Submit</button>
+        <button type="button" onclick="get_value()" >Submit</button>
     </div>
 </body>
 </html>
